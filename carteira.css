@@ -4,12 +4,11 @@ body {
 }
 
 h5 {
-    color: whitesmoke
+    color: salmon
 }
 
 #ficha {
-    background-color: white;
-    max-width: 600px;
+    max-width: 800px;
     margin: 100px auto;
     border-radius: 5px;
 }
@@ -20,8 +19,8 @@ h5 {
 }
 
 #title {
-    background: ghostwhite ;
-    padding-top: 10px ;
+    background: whitesmoke ;
+    padding: 10px 30px 10px 30px ;
     color: salmon;
     font-weight: 800;
 
@@ -29,8 +28,7 @@ h5 {
 
 #ficha h1 {
     text-transform: uppercase;
-    text-align: center;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .list-group-item.active {
@@ -39,19 +37,22 @@ h5 {
 }
 
 .btn01 {
-    background-color: whitesmoke;
-    border: whitesmoke;
+    background-color: salmon;
+    border: salmon;
+    color: whitesmoke;
 
 }
 
 .btn01:hover {
     background-color: salmon;
+    opacity: 0.8;
     border: salmon;
     color: white;
 }
 
 #painel {
     padding: 0;
+    background-color: whitesmoke
 }
 
 .tab-content>.active {
@@ -63,24 +64,34 @@ h5 {
 }
 
 #color {
-    margin: 0;
     text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+top: 40;
+    display: flow-root;
+    right: 0;
+    border: 2px dotted whitesmoke;
 }
 
+
+#color h5 {
+    color: whitesmoke;
+}
 .verde {
-    background-color: cadetblue;
+    background-color: crimson;
 }
 
 .verde:hover {
-    background-color: cadetblue;
+    background-color: crimson;
 }
 
 .nights:hover {
-    background-color: dimgrey;
+    background-color: #221f3b;
 }
 
 .nights {
-    background-color: dimgrey;
+    background-color: #221f3b;
 }
 
 .coral {
@@ -92,3 +103,15 @@ h5 {
     background-color: salmon;
 
 }
+
+.card {
+    margin-top: 30px;
+    border-radius: 10px;;
+    margin: 10px 30px ;
+    background-color: antiquewhite
+
+    }
+
+    #resultado {
+        background-color: white;
+    }

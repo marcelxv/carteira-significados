@@ -6,13 +6,13 @@
     <title>Console</title>
     <script src="app.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <link rel="stylesheet" href="coral.css">
+    <link rel="stylesheet" href="carteira.css">
 
     </head>
 <body>
 
   <div class="row shadow" id="ficha">
-    <div id="title"><h1>Sua Carteira</h1></div>
+    <div id="title"><h1>Sua Carteira – Guarde o que é importante para você</h1></div>
     <div class="col-4" id="painel">
       <div class="list-group" id="list-tab" role="tablist">
         <a class="list-group-item list-group-item-action active" id="nome-list" data-toggle="list" href="#nome" role="tab" aria-controls="home">Nome</a>
@@ -21,7 +21,7 @@
         <a class="list-group-item list-group-item-action" id="linguagem-list" data-toggle="list" href="#linguagem" role="tab" aria-controls="settings">Linguagem</a>
       </div>
     </div>
-    <div class="col-4">
+    <div class="col-8" id="resultado">
       <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nome" role="tabpanel" aria-labelledby="nome-list">...</div>
         <div class="tab-pane fade" id="idade" role="tabpanel" aria-labelledby="idade-list">...</div>
@@ -33,12 +33,6 @@
     <button id="gerar" class="btn01 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border-gray-400 shadow" onclick="preencheFicha()">Gerar</button>
 
   </div>
-  <div id="color">
-    <h5>Escolha o tema</h5>
-  <button class="btn01 verde hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border-gray-400 shadow" onclick="verde()"></button>
-  <button class="btn01 nights hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border-gray-400 shadow" onclick="nights()"></button>
-  <button class="btn01 coral hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border-gray-400 shadow" onclick="coral()"></button>
-</div>
   </div>
 
 </div>
