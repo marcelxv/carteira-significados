@@ -1,0 +1,94 @@
+body {
+    background: cadetblue;
+    color: gray;
+}
+
+h5 {
+    color: whitesmoke
+}
+
+#ficha {
+    background-color: white;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+.list-group-item.active {
+    background-color: cadetblue;
+    border: cadetblue 1px solid;
+}
+
+#title {
+    background: ghostwhite ;
+    padding-top: 10px ;
+    color: cadetblue;
+    font-weight: 800;
+
+}
+
+#ficha h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+}
+
+.list-group-item.active {
+    background-color: '';
+    border: ''
+}
+
+.btn01 {
+    background-color: whitesmoke;
+    border: whitesmoke;
+
+}
+
+.btn01:hover {
+    background-color: cadetblue;
+    border: cadetblue;
+    color: white;
+}
+
+#painel {
+    padding: 0;
+}
+
+.tab-content>.active {
+    padding: 30px 10px;
+}
+
+.list-group {
+    border-radius: 0;
+}
+
+#color {
+    margin: 0;
+    text-align: center;
+}
+
+.verde {
+    background-color: cadetblue;
+}
+
+.verde:hover {
+    background-color: cadetblue;
+}
+
+.nights:hover {
+    background-color: dimgrey;
+}
+
+.nights {
+    background-color: dimgrey;
+}
+
+.coral {
+    background-color: salmon;
+
+}
+
+.coral:hover {
+    background-color: salmon;
+
+}
